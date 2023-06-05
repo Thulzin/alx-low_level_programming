@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
  * main - entry point
- * Description: 'prints out _putchar'
+ * Description: 'prints alphabet in lowercase'
  * Return: always 0 (success)
 */
-int main(void)
+
+void print_alphabet(void);
 {
 	int i;
 
