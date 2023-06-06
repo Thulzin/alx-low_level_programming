@@ -1,1 +1,1 @@
-Hexademal
+Hexadecimal
