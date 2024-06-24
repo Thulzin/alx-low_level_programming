@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - a program that prints its name
@@ -8,10 +9,9 @@
  *Return: 0 always
  */
 
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("argc = %d\n", argc);
-	printf("argv = %s\n", *argv);
+	printf("%s\n", *argv);
 
 	return (0);
 }
